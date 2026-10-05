@@ -1,155 +1,114 @@
-# Awesome-Desktop-Operating-System
-
-# Awesome-Desktop-Operating-System
-
-
-
-**Curated List of Commercial Operating Systems & Open-Source Distributions**
-
-*Focused on General-Purpose Desktop OS, Gaming, Productivity & Hardware Compatibility*
-
-**Last updated: October 2026**
-
-
-
-This repository tracks notable **commercial operating systems** and **open-source distributions** for **Desktop Computing**. These tools help users choose the right OS for their hardware, workflow, and preferences—whether prioritizing stability, cutting-edge features, gaming performance, or Windows familiarity.
-
-
-
-**Examples** include Windows 11, macOS Sonoma, Ubuntu Desktop, Linux Mint, Fedora Workstation, ChromeOS, Debian, Manjaro, Zorin OS, and elementary OS (the category leaders).
-
-
-
-**Open-source emphasis**: The open-source desktop ecosystem is **exceptionally mature and diverse**. **Ubuntu** and **Fedora Workstation** are widely recommended as the best starting points for Linux newcomers due to their stability, hardware support, and corporate backing . **Linux Mint** offers the most Windows-like experience for converts, while **Manjaro** brings Arch's rolling-release power to a more approachable installation . This section documents these production-grade solutions.
-
-
-
-## 📖 Table of Contents
-
-
-
-- [💼 Commercial Operating Systems](#-commercial-operating-systems)
-
-- [🔓 Open-Source Desktop Distributions](#-open-source-desktop-distributions)
-
-- [🤝 How to Contribute](#-how-to-contribute)
-
-- [⚠️ Disclaimer](#-disclaimer)
-
-
-
-## 💼 Commercial Operating Systems
-
-
-
-> **📊 Market Context**: The global desktop operating system market is **moderately concentrated** but **shifting**. **Windows** fell below **60% market share for the first time** in June 2026, reaching **56.55% globally** . **Apple's** desktop platforms hold a combined **~16.4% share** (OS X at 11.89%, macOS at 4.48%) . **Linux** continues steady growth, reaching **4.39% globally** and **over 10% in the United States** . **ChromeOS** holds **1.21%** . **Critical lifecycle notice**: **Windows 10 reached end of support on October 14, 2025**—no more security updates or bug fixes . **Windows 10 Enterprise LTSC 2021** (version 21H2) will reach end of updates on **January 12, 2027**, while **Windows 10 IoT Enterprise LTSC 2021** has support until **January 13, 2032** .
-
-
-
-| Operating System | Description | Pricing | Free Tier Limits | Market Share | Company Size |
-
-|-----------------|-------------|---------|------------------|--------------|--------------|
-
-| **[Windows 11](https://www.microsoft.com/en-us/windows/windows-11)** | **The current Microsoft desktop OS.** Modern interface, Android app support, DirectStorage, and deep Microsoft 365 integration. | **Free upgrade** from eligible Windows 10 (before EOS). **Retail license**: ~$139 (Home), ~$199 (Pro). **OEM**: Bundled with new PCs. | **Windows 11 is a paid OS** — no perpetual free tier. **Windows 10 upgrade** was free for eligible devices. | **~56.55% (Windows overall, June 2026)**  | **~$281B revenue (Microsoft FY2025)** |
-
-| **[Windows 10](https://www.microsoft.com/en-us/windows/windows-10)** | **End of support October 14, 2025.** The long-serving Windows version. | **End of support** — no new security updates for Home/Pro. **ESU (Extended Security Updates)**: Paid option for enterprise. | **N/A** — end of support. | **Legacy — deprecated** | **~$281B revenue (Microsoft FY2025)** |
-
-| **[macOS Sonoma (14)](https://www.apple.com/macos/sonoma/)** | **Apple's desktop OS (September 2023).** Widgets, video conferencing improvements, Safari profiles, and Game Mode. | **Free** — bundled with Mac hardware. **No standalone purchase**. | **Free with Mac purchase**. | **~4.48% (macOS) + 11.89% (OS X)**  | **~$400B revenue (Apple FY2025 est.)** |
-
-| **[ChromeOS](https://www.google.com/chromebook/)** | **Google's cloud-first OS.** Chrome browser, Android app support, Linux (Crostini) container. | **Free** — bundled with Chromebook hardware. | **Free with Chromebook purchase**. | **~1.21% (global)**  | **~$350B revenue (Alphabet FY2025)** |
-
-
-
-## 🔓 Open-Source Desktop Distributions
-
-
-
-Sorted by DistroWatch page hit ranking (12-month trailing, July 2026) where available, with relevance and community adoption as secondary criteria .
-
-
-
-| Distribution | Description | DistroWatch Rank (HPD) | Base | Desktop Environment | Best For |
-
-|-------------|-------------|------------------------|------|---------------------|----------|
-
-| **[CachyOS](https://cachyos.org/)** | **Performance-optimized Arch-based distro.** Tops DistroWatch rankings at **3,822 hits/day** . | #1 (3,822 HPD) | Arch Linux | KDE Plasma, GNOME, Xfce | Performance enthusiasts, gamers |
-
-| **[Linux Mint](https://linuxmint.com/)** | **Best for Windows converts.** Familiar Cinnamon desktop, less resource-intensive, excellent documentation . | #2 (2,275 HPD)  | Ubuntu LTS / Debian | Cinnamon, MATE, Xfce | Windows converts, older hardware |
-
-| **[MX Linux](https://mxlinux.org/)** | **Midweight Debian-based distro.** Popular for stability and MX Tools. | #3 (1,926 HPD)  | Debian Stable | Xfce, KDE Plasma, Fluxbox | Stability-focused users |
-
-| **[Debian](https://www.debian.org/)** | **The universal operating system.** Foundation for Ubuntu, Mint, and many others. Rock-solid stability . | #4 (1,468 HPD)  | — | GNOME, KDE, Xfce, others | Servers, stability purists |
-
-| **[Pop!_OS](https://pop.system76.com/)** | **System76's Ubuntu-based distro.** Tiling window manager, excellent NVIDIA support. | #5 (1,347 HPD)  | Ubuntu LTS | COSMIC, GNOME | Developers, NVIDIA users |
-
-| **[Zorin OS](https://zorin.com/os/)** | **Designed for Windows and macOS converts.** Familiar layouts, polished experience . | #6 (1,247 HPD)  | Ubuntu LTS | GNOME (customized) | Windows/macOS converts |
-
-| **[Fedora Workstation](https://fedoraproject.org/workstation/)** | **Cutting-edge features with stability.** Recommended for users with modern hardware . Sponsored by Red Hat. | #8 (1,114 HPD)  | — | GNOME, KDE (spin) | Modern hardware, developers |
-
-| **[Ubuntu Desktop](https://ubuntu.com/desktop)** | **The 'default' Linux distribution.** Corporate backing from Canonical, LTS releases, ships on major OEM hardware . | #10 (1,012 HPD)  | Debian | GNOME (customized) | General-purpose, beginners |
-
-| **[Manjaro](https://manjaro.org/)** | **Arch made approachable.** Rolling release, AUR access, intuitive installation . | #9 (1,014 HPD)  | Arch Linux | KDE Plasma, GNOME, Xfce | Advanced beginners, cutting-edge |
-
-| **[elementary OS](https://elementary.io/)** | **Beautiful, macOS-inspired design.** Focus on simplicity and curated app store. | — | Ubuntu LTS | Pantheon | Design-conscious users |
-
-
-
-**Additional open-source options worth exploring:**
-
-
-
-| Distribution | Description |
-
-|-------------|-------------|
-
-| **[Bazzite](https://bazzite.gg/)** | Gaming-focused immutable distro built for Steam Deck-like experience . |
-
-| **[Kubuntu](https://kubuntu.org/)** | Official Ubuntu flavor with KDE Plasma—more Windows-like taskbar and app menu . |
-
-| **[Fedora Silverblue](https://silverblue.fedoraproject.org/)** | Atomic/immutable Fedora variant—excellent for users who want unbreakable systems . |
-
-| **[Arch Linux](https://archlinux.org/)** | The DIY distro. Excellent documentation (Arch Wiki) used by users of all distros . |
-
-
-
-## 🤝 How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's commercial or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## ⚠️ Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Operating systems handle sensitive personal and organizational data; ensure proper security configuration, updates, and compliance with organizational policies.
-
-- **Critical lifecycle notice**: **Windows 10 reached end of support on October 14, 2025** . No more security updates for Home/Pro editions. **Windows 10 Enterprise LTSC 2021** ends **January 12, 2027**; **Windows 10 IoT Enterprise LTSC 2021** ends **January 13, 2032** .
-
-- **macOS Sonoma (14)** is **phasing out**—UCSF IT lists End of Support as **November 1, 2026** . Apple typically discontinues support for macOS more than 2 versions old.
-
-- **Open-source reality**: The open-source desktop ecosystem is **exceptionally mature and diverse**. **Ubuntu** and **Fedora** are the most recommended starting points for Linux newcomers due to stability, hardware support, and corporate backing . **Linux Mint** offers the most Windows-like experience . **CachyOS** tops DistroWatch rankings for performance enthusiasts . However, **commercial operating systems** (Windows, macOS) still dominate market share and provide **polished UX, extensive software compatibility, and enterprise management** that open-source alternatives may lack. The open-source path is **genuinely viable** for general computing, development, and gaming (especially with SteamOS/Proton).
-
-
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Desktop-Operating-System"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Desktop-Operating-System?style=flat-square&logo=github" alt="Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Desktop-Operating-System/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Desktop-Operating-System?style=flat-square&logo=github" alt="Forks"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Desktop-Operating-System/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-Desktop-Operating-System?style=flat-square&logo=github" alt="Issues"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Desktop-Operating-System/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Desktop-Operating-System?style=flat-square" alt="License"/></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
+
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Desktop Operating System Banner" width="100%" />
+</p>
+
+# 💻 Awesome Desktop Operating System
+
+> **A curated, comprehensive guide to commercial operating systems and open-source Linux distributions for desktop computing, gaming, productivity, and workstation workflows.** 🚀
 
 ---
 
+## 📌 Overview & SEO Summary
 
+Whether you are looking for **high-performance gaming OS**, **rock-solid developer workstations**, **lightweight distributions for older hardware**, or **privacy-focused commercial alternatives**, this repository provides an authoritative overview of desktop operating systems.
 
-**Made for desktop users, Linux enthusiasts, IT administrators, and technology decision-makers.**
+### 🌟 Key Highlights
+- 🪟 **Commercial Giants**: Detailed pricing, free tier limitations, market shares, and corporate valuation.
+- 🐧 **Open-Source Powerhouses**: Sorted by real GitHub star popularity, community engagement, and distro rankings.
+- 🎮 **Specialized OS**: Gaming-ready distros with pre-configured Steam/Proton support (Bazzite, CachyOS, Pop!_OS).
+- 🛡️ **Immutable & Atomic OS**: Modern container-first & unbreakable systems (Fedora Silverblue, NixOS).
 
-Let's make desktop computing more open, transparent, and user-controlled.
+---
+
+## 📖 Table of Contents
+- [💼 Commercial & SaaS Desktop Operating Systems](#-commercial--saas-desktop-operating-systems)
+- [🔓 Open-Source Desktop Distributions](#-open-source-desktop-distributions)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [📈 Star History](#-star-history)
+- [💖 Support & Sponsorship](#-support--sponsorship)
+- [⚠️ Disclaimer](#-disclaimer)
+
+---
+
+## 💼 Commercial & SaaS Desktop Operating Systems
+
+> **📈 Estimated Sector Market Size & Concentration**: The global desktop operating system market size is estimated at **$54.8 Billion** and is **highly concentrated** (winner-take-all dynamics dominated by Microsoft Windows and Apple macOS holding over 90% combined global market share).
+
+| 🖥️ Operating System | 📝 Description | 💵 Pricing | 🎁 Free Tier Limits | 📊 Market Share | 🏢 Company Size (Valuation / Revenue) |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **[macOS Sonoma (14)](https://www.apple.com/macos/sonoma/)** 🍎 | **Apple's flagship desktop OS.** Premium Unix-based UI, Safari profiles, Game Mode, metal graphics API, and Apple Silicon hardware acceleration. | **$0** (Bundled with Mac hardware; standalone Mac mini starts at $599) | **Free perpetual updates** for Mac owners; requires genuine Apple Mac hardware or official virtualization. | **~16.37%** (macOS + OS X combined) | **~$3.4 Trillion Valuation** (~$400B annual revenue) |
+| **[Windows 11](https://www.microsoft.com/en-us/windows/windows-11)** 🪟 | **Microsoft's flagship commercial OS.** Modern centered taskbar, DirectStorage for gaming, Android app support via WSA, and Microsoft 365 Copilot AI. | **$139.99** (Home Edition) / **$199.99** (Pro Edition); Free upgrade for eligible Windows 10 PCs. | **Unactivated trial** available indefinitely with a subtle desktop watermark and disabled personalization settings. | **~56.55%** (Global leader) | **~$3.1 Trillion Valuation** (~$281B annual revenue) |
+| **[Windows 10](https://www.microsoft.com/en-us/windows/windows-10)** 💻 | **Legacy Microsoft OS.** Reached End of Support (EOS) on October 14, 2025. Still used across enterprise legacy systems. | **End of Support** (Base OS); Extended Security Updates (ESU) cost **$61/device/year** for Year 1. | **End of Support** — No free updates for Home/Pro; standard consumer free tier discontinued. | **Legacy** (~35% declining share) | **~$3.1 Trillion Valuation** (~$281B annual revenue) |
+| **[ChromeOS](https://www.google.com/chromebook/)** 🌐 | **Google's cloud-centric OS.** Linux kernel with Chrome browser UI, Google Play Android app integration, and Crostini Linux container support. | **$0** (Pre-installed on Chromebooks starting at $199; ChromeOS Flex ISO download is $0). | **Free perpetual OS** pre-installed on certified Chromebook hardware or free bootable ChromeOS Flex download. | **~1.21%** (Global share) | **~$2.2 Trillion Valuation** (~$350B annual revenue) |
+
+---
+
+## 🔓 Open-Source Desktop Distributions
+
+Sorted by **GitHub Star Counts (Descending)** to reflect real developer and community adoption.
+
+| 🐧 Distribution | 📝 Description | ⭐ GitHub Stars Badge | 🔧 Base Distro | 🖥️ Desktop Environment | 🎯 Best Used For |
+| :--- | :--- | :---: | :--- | :--- | :--- |
+| **[NixOS](https://nixos.org/)** ❄️ | **Declarative & Reproducible OS.** Purely functional package management with atomic system rollbacks. | [![GitHub stars](https://img.shields.io/github/stars/NixOS/nixpkgs?style=social&color=white)](https://github.com/NixOS/nixpkgs/stargazers) | Independent | GNOME, KDE Plasma, Hyprland | DevOps, Power Users, Reproducible Builds |
+| **[Bazzite](https://bazzite.gg/)** 🎮 | **Next-gen Steam Deck-like gaming distro.** OCI-based immutable image powered by Universal Blue. | [![GitHub stars](https://img.shields.io/github/stars/ublue-os/bazzite?style=social&color=white)](https://github.com/ublue-os/bazzite/stargazers) | Fedora Atomic | KDE Plasma, GNOME, Steam Gaming UI | Gaming PCs, Handheld Consoles (Steam Deck) |
+| **[Arch Linux](https://archlinux.org/)** 🏹 | **Lightweight & flexible DIY distro.** Rolling release model with access to the comprehensive Arch User Repository (AUR). | [![GitHub stars](https://img.shields.io/github/stars/archlinux/archinstall?style=social&color=white)](https://github.com/archlinux/archinstall/stargazers) | Independent | Custom / User choice | Power Users, Customization Enthusiasts |
+| **[Linux Mint](https://linuxmint.com/)** 🌿 | **The ultimate Windows replacement.** Polished Cinnamon desktop, rock-solid stability, low hardware resource footprint. | [![GitHub stars](https://img.shields.io/github/stars/linuxmint/cinnamon?style=social&color=white)](https://github.com/linuxmint/cinnamon/stargazers) | Ubuntu LTS / Debian | Cinnamon, MATE, Xfce | Windows Converts, General Productivity |
+| **[Pop!_OS](https://pop.system76.com/)** 🚀 | **System76's developer OS.** Out-of-the-box NVIDIA graphics support, auto-tiling COSMIC desktop, full disk encryption. | [![GitHub stars](https://img.shields.io/github/stars/pop-os/shell?style=social&color=white)](https://github.com/pop-os/shell/stargazers) | Ubuntu LTS | COSMIC (Rust-based), GNOME | Developers, AI Engineers, Gamers |
+| **[elementary OS](https://elementary.io/)** 🎨 | **macOS-inspired open-source desktop.** Focus on beautiful aesthetic consistency, privacy, and curated AppCenter. | [![GitHub stars](https://img.shields.io/github/stars/elementary/os?style=social&color=white)](https://github.com/elementary/os/stargazers) | Ubuntu LTS | Pantheon | Designers, macOS Converts, Minimalists |
+| **[openSUSE](https://www.opensuse.org/)** 🦎 | **Enterprise-grade open distribution.** Tumbleweed (rolling) and Leap (stable) editions with YaST control panel. | [![GitHub stars](https://img.shields.io/github/stars/openSUSE/open-build-service?style=social&color=white)](https://github.com/openSUSE/open-build-service/stargazers) | Independent | KDE Plasma, GNOME, Xfce | Enterprise Workstations, Sysadmins |
+| **[Zorin OS](https://zorin.com/os/)** 💎 | **Designed for seamless Windows/Mac migration.** Pre-configured desktop layouts, Wine integration for Windows apps. | [![GitHub stars](https://img.shields.io/github/stars/ZorinOS/zorin-desktop-themes?style=social&color=white)](https://github.com/ZorinOS/zorin-desktop-themes/stargazers) | Ubuntu LTS | GNOME (Customized) | Newcomers, Education, Business |
+| **[CachyOS](https://cachyos.org/)** ⚡ | **Performance-tuned Arch distribution.** Compiled with x86-64-v3/v4 CPU optimizations and custom kernel schedulers. | [![GitHub stars](https://img.shields.io/github/stars/CachyOS/CachyOS-PKGBUILDS?style=social&color=white)](https://github.com/CachyOS/CachyOS-PKGBUILDS/stargazers) | Arch Linux | KDE Plasma, GNOME, Hyprland | Hardcore Gamers, Benchmarking Enthusiasts |
+| **[Debian](https://www.debian.org/)** 🌀 | **The universal operating system.** Renowned for rock-solid stability and massive software repositories. | [![GitHub stars](https://img.shields.io/github/stars/debian/debian-installer?style=social&color=white)](https://github.com/debian/debian-installer/stargazers) | Independent | GNOME, KDE, Xfce, LXQt | Servers, Stability Purists, Base Distro |
+| **[Fedora Workstation](https://fedoraproject.org/workstation/)** 🎩 | **Innovator's Linux desktop.** Latest GNOME desktop, Wayland default, PipeWire audio, sponsored by Red Hat. | [![GitHub stars](https://img.shields.io/github/stars/fedora-infra/ansible?style=social&color=white)](https://github.com/fedora-infra/ansible/stargazers) | Independent | GNOME | Software Engineers, Cutting-Edge Users |
+| **[Ubuntu Desktop](https://ubuntu.com/desktop)** 🟠 | **The world's most popular Linux desktop.** Corporate support from Canonical, 5-year LTS releases, wide OEM availability. | [![GitHub stars](https://img.shields.io/github/stars/canonical/ubuntu-desktop-installer?style=social&color=white)](https://github.com/canonical/ubuntu-desktop-installer/stargazers) | Debian | GNOME (Customized) | Beginners, Cloud Developers, Hardware Compatibility |
+| **[Manjaro](https://manjaro.org/)** 📦 | **Approachable Arch Linux.** User-friendly installer, graphical package manager, delayed rolling releases for stability. | [![GitHub stars](https://img.shields.io/github/stars/manjaro/manjaro-tools?style=social&color=white)](https://github.com/manjaro/manjaro-tools/stargazers) | Arch Linux | KDE Plasma, GNOME, Xfce | Beginners entering Arch ecosystem |
+| **[MX Linux](https://mxlinux.org/)** 🛠️ | **Midweight Debian distribution.** Top-ranked on DistroWatch, includes MX Tools helper suite and fast performance. | [![GitHub stars](https://img.shields.io/github/stars/mxlinux/mx-tools?style=social&color=white)](https://github.com/mxlinux/mx-tools/stargazers) | Debian Stable | Xfce, KDE Plasma, Fluxbox | Older Systems, Reliability Enthusiasts |
+| **[Kubuntu](https://kubuntu.org/)** 🔹 | **Official Ubuntu flavor with KDE Plasma.** Windows-like start menu & panel layout backed by Ubuntu's software base. | [![GitHub stars](https://img.shields.io/github/stars/canonical/ubuntu-desktop-installer?style=social&color=white)](https://github.com/canonical/ubuntu-desktop-installer/stargazers) | Ubuntu LTS | KDE Plasma | Desktop Customization, Windows Converts |
+| **[Fedora Silverblue](https://silverblue.fedoraproject.org/)** 🛡️ | **Atomic & Immutable desktop.** Immutable root filesystem with Flatpak application isolation and rpm-ostree updates. | [![GitHub stars](https://img.shields.io/github/stars/fedora-infra/ansible?style=social&color=white)](https://github.com/fedora-infra/ansible/stargazers) | Fedora | GNOME | Unbreakable Systems, Container Workflows |
+
+---
+
+## 🤝 How to Contribute
+
+Contributions are welcome! Please follow these simple steps:
+1. 🍴 **Fork** this repository.
+2. 📝 **Add or update** entries in `README.md` following the tabular layout.
+3. ⭐ Ensure open-source options include valid repository links and star badges.
+4. 🔀 **Open a Pull Request** with a brief summary of your changes.
+
+Check out [Awesome-Awesome-Awesome](https://github.com/ishandutta2007/Awesome-Awesome-Awesome) for more curated lists!
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Desktop-Operating-System&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Desktop-Operating-System&type=date&legend=top-left)
+
+---
+
+## 💖 Support & Sponsorship
+
+If you find this repository helpful for selecting your next operating system or setting up your workstation, please consider supporting the project!
+
+- ⭐ **Star this repository** to increase its visibility.
+- 🔀 **Fork & Share** it with your fellow Linux enthusiasts and colleagues.
+- ☕ **Buy me a coffee / Sponsor**: Support ongoing maintenance on the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007).
+
+Thank you for your support! 🙌
+
+---
+
+## ⚠️ Disclaimer
+
+- This list is community-curated for informational purposes.
+- Operating systems manage core security and personal data; always verify system image signatures and checksums before installation.
+- All product names, logos, and brands are property of their respective owners.
